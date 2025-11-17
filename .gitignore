@@ -1,0 +1,20 @@
+# Python/Django specific ignores
+__pycache__/
+*.pyc
+*.log
+.venv/
+venv/
+env/
+db.sqlite3
+local_settings.py  # se você usa um arquivo de settings local
+.DS_Store          # macOS specific
+.vscode/           # Visual Studio Code specific (opcional)
+*.env
+
+# Dependency management
+Pipfile.lock
+
+# Operating System specific files
+# Windows
+Thumbs.db
+ehthumbs.db
